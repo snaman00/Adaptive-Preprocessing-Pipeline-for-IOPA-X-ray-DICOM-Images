@@ -50,6 +50,9 @@ These images are used to simulate a realistic diagnostic pipeline in dental radi
 - **Edge Clarity**: Canny edge detection output.
 
 ### ML / DL Approach (if applied in this way)
+#### 1. Image Quality Classification (Supervised ML)
+- Train a CNN to classify input images into quality categories (e.g., poor, acceptable, good).
+- Based on the category, select pre-defined processing parameters.
 
 
 ### 5. Grading System
