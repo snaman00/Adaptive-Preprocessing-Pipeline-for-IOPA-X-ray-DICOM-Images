@@ -49,6 +49,9 @@ These images are used to simulate a realistic diagnostic pipeline in dental radi
 - **Sharpness Score**: Laplacian-based evaluation.
 - **Edge Clarity**: Canny edge detection output.
 
+### ML / DL Approach (if applied in this way)
+
+
 ### 5. Grading System
 - Normalizes and weights all metrics to assign a **grade (A to D)** reflecting the final image quality.
 
