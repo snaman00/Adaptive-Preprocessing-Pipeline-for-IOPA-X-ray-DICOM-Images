@@ -76,18 +76,20 @@ These images are used to simulate a realistic diagnostic pipeline in dental radi
 - Adaptive enhancement preserves anatomical features while reducing noise effectively.
 
 ### Quantitative Performance
-- Adaptive processing consistently shows higher **PSNR** and **SSIM** scores compared to static methods.
-- **Sharpness** and **edge clarity** significantly improved.
-- Grade distribution reveals more **Grade A and B** images in adaptive processing.
+- PSNR improvement indicates reduced noise and better preservation of image fidelity.
+- SSIM increase confirms structural features (e.g., tooth boundaries, canals) were retained or enhanced.
+- Sharpness improved dramatically, especially for blurry inputs.
+- Brightness was adjusted to within a perceptually optimal range, without saturation.
 
 | Metric       | Original | Static  | Adaptive |
 |--------------|----------|---------|----------|
 | PSNR (avg)   | 22.5     | 25.1    | 29.3     |
 | SSIM (avg)   | 0.72     | 0.79    | 0.87     |
 | Sharpness    | Low      | Medium  | High     |
+| Brightness   | Variable | ~140    | 120-135  |
 | Final Grade  | C        | B       | A        |
 
-
+- 
 ## Discussion & Future Work
 
 ### Key Achievements
