@@ -49,10 +49,20 @@ These images are used to simulate a realistic diagnostic pipeline in dental radi
 - **Sharpness Score**: Laplacian-based evaluation.
 - **Edge Clarity**: Canny edge detection output.
 
-### ML / DL Approach (if applied in this way)
+### **5. ML / DL Approach (if applied in this way)**
 #### 1. Image Quality Classification (Supervised ML)
 - Train a CNN to classify input images into quality categories (e.g., poor, acceptable, good).
 - Based on the category, select pre-defined processing parameters.
+
+#### 2. Parameter Prediction Model
+- A regression-based ML model (e.g., XGBoost or shallow neural net) can predict optimal enhancement parameters (contrast factor, sharpness filter strength, etc.) for any input image.
+
+#### 3. Autoencoder for Denoising
+- Train an autoencoder or U-Net model using pairs of clean and synthetically degraded images to learn a mapping from noisy to enhanced images.
+
+#### 4. GAN-based Image Enhancement
+- Use conditional GANs (e.g., Pix2Pix) to directly perform image-to-image translation for enhancement.
+- Allows for realistic reconstructions with fine detail preservation.
 
 
 ### 5. Grading System
