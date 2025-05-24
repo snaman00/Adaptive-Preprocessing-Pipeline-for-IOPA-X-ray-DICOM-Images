@@ -80,16 +80,17 @@ These images are used to simulate a realistic diagnostic pipeline in dental radi
 - SSIM increase confirms structural features (e.g., tooth boundaries, canals) were retained or enhanced.
 - Sharpness improved dramatically, especially for blurry inputs.
 - Brightness was adjusted to within a perceptually optimal range, without saturation.
+- **Metric of one of Image after and before Preprocessing is as below :
 
 | Metric       | Original | Static  | Adaptive |
 |--------------|----------|---------|----------|
-| PSNR (avg)   | 22.5     | 25.1    | 29.3     |
-| SSIM (avg)   | 0.72     | 0.79    | 0.87     |
-| Sharpness    | Low      | Medium  | High     |
+| PSNR         | 15.4     | 19.38   | 35.43    |
+| SSIM         | 0.72     | 0.74    | 0.83     |
+| Sharpness    | 89       | 111     | 4.01     |
 | Brightness   | Variable | ~140    | 120-135  |
 | Final Grade  | C        | B       | A        |
 
-- 
+
 ## Discussion & Future Work
 
 ### Key Achievements
