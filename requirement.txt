@@ -1,4 +1,5 @@
 Here’s are the requirements of compatible versions for each package, ensuring reproducibility and compatibility based on your project type:
+
 pydicom==2.4.4
 matplotlib==3.8.4
 opencv-python==4.9.0.80
@@ -6,4 +7,5 @@ numpy==1.26.4
 scikit-image==0.22.0
 pillow==10.3.0
 notebook==7.1.3
-These versions are recent as of early 2025 and compatible with each other.
+
+"These versions are recent as of early 2025 and compatible with each other."
