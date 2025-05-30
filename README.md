@@ -120,7 +120,7 @@ pip install pydicom numpy matplotlib opencv-python scikit-image pandas
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/AdaptiveIOPA.git
+git clone https://github.com/snaman00/Adaptive-Preprocessing-Pipeline-for-IOPA-X-ray-DICOM-Imagesgit
 cd AdaptiveIOPA
 ```
 
